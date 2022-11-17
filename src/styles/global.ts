@@ -9,4 +9,7 @@ export const GlobalStyle = createGlobalStyle`
   :focus {
     outline: 0;
   }
+  body {
+    font-family: 'Inter';
+  }
 `

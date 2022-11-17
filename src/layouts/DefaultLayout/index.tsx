@@ -11,7 +11,8 @@ export function DefaultLayout() {
       <Navbar />
       <div className='sideMain' style={{
       backgroundImage: `url(${Background})`,
-      backgroundRepeat: 'no-repeat'
+      backgroundRepeat: 'no-repeat',
+      height: 'calc(100vh - 127px)',
     }}>
 
         <Sidebar />
