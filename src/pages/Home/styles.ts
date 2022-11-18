@@ -18,10 +18,10 @@ export const HomeGlassMain = styled.div`
 `
 
 export const HomeTop = styled.div`
-    font-size: 48px;
+    font-size: 38px;
     line-height: 58px;
     color: ${props => props.theme.white};
-    padding: 27px 130px 96px;
+    padding: 27px 130px 76px;
 `
 
 export const HomeMid = styled.div`
@@ -45,7 +45,7 @@ export const HomeMid = styled.div`
 export const HomeBottom = styled.div`
     display: flex;
     align-items: center;
-    padding: 0 0 174px 0;
+    padding: 0 0 50px 0;
     div {
         
         &:nth-child(1) {

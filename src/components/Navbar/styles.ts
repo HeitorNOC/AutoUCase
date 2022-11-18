@@ -9,6 +9,13 @@ export const NavbarContainer = styled.div`
 
   background: ${props => props.theme['bg-gray']};
 
+  .avatar {
+    
+    width: 90px;
+    height: 90px;
+    border-radius: 999px;
+  }
+
   .underline {
     margin-left: -158px;
     

@@ -1,0 +1,536 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "matricula": "3748",
+      "email": "lucas.fernandes@cliente.com",
+      "nome": "Lucas",
+      "sobrenome": "Fernandes",
+      "departamento": "Financeiro",
+      "cargo": "Analista",
+      "avatar": "./src/assets/avatarDb/1.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 2,
+      "matricula": "2482",
+      "email": "pedro.lima@cliente.com",
+      "nome": "Pedro",
+      "sobrenome": "Lima",
+      "departamento": "Logistica",
+      "cargo": "Transportador",
+      "avatar": "./src/assets/avatarDb/2.svg",
+      "reacoes": {
+        "Like": {
+          "count": 6,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 7,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 12,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 14,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 3,
+      "matricula": "6449",
+      "email": "maria.julianelli@cliente.com",
+      "nome": "Maria",
+      "sobrenome": "Julianelli",
+      "departamento": "Logistica",
+      "cargo": "Planejador",
+      "avatar": "./src/assets/avatarDb/3.svg",
+      "reacoes": {
+        "Like": {
+          "count": 9,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 4,
+      "matricula": "2749",
+      "email": "kevin.restom@cliente.com",
+      "nome": "Kevin",
+      "sobrenome": "Restom",
+      "departamento": "Logistica",
+      "cargo": "Transportador",
+      "avatar": "./src/assets/avatarDb/4.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 5,
+      "matricula": "4128",
+      "email": "amanda.amorim@cliente.com",
+      "nome": "Amanda",
+      "sobrenome": "Amorim",
+      "departamento": "Suprimentos",
+      "cargo": "Operador",
+      "avatar": "./src/assets/avatarDb/5.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 6,
+      "matricula": "9252",
+      "email": "fernanda.silva@cliente.com",
+      "nome": "Fernanda",
+      "sobrenome": "Silva",
+      "departamento": "Suprimentos",
+      "cargo": "Operador",
+      "avatar": "./src/assets/avatarDb/6.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 7,
+      "matricula": "5945",
+      "email": "carla.pereira@cliente.com",
+      "nome": "Carla",
+      "sobrenome": "Pereira",
+      "departamento": "Suprimentos",
+      "cargo": "Almoxarife",
+      "avatar": "./src/assets/avatarDb/7.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 8,
+      "matricula": "4879",
+      "email": "pedro.matos@cliente.com",
+      "nome": "Pedro",
+      "sobrenome": "Matos",
+      "departamento": "Suprimentos",
+      "cargo": "Almoxarife",
+      "avatar": "./src/assets/avatarDb/8.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 9,
+      "matricula": "1827",
+      "email": "nathalia.garcia@cliente.com",
+      "nome": "Nathalia",
+      "sobrenome": "Garcia",
+      "departamento": "Materiais",
+      "cargo": "Transportador",
+      "avatar": "./src/assets/avatarDb/9.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 10,
+      "matricula": "1318",
+      "email": "leonardo.lima@cliente.com",
+      "nome": "Leonardo",
+      "sobrenome": "Lima",
+      "departamento": "Materiais",
+      "cargo": "Transportador",
+      "avatar": "./src/assets/avatarDb/10.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 11,
+      "matricula": "3564",
+      "email": "giulia.scarppa@cliente.com",
+      "nome": "Giulia",
+      "sobrenome": "Scarppa",
+      "departamento": "Materiais",
+      "cargo": "Manutenção",
+      "avatar": "./src/assets/avatarDb/11.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 12,
+      "matricula": "9178",
+      "email": "michael.pereira@cliente.com",
+      "nome": "Michael",
+      "sobrenome": "Pereira",
+      "departamento": "Materiais",
+      "cargo": "Manutenção",
+      "avatar": "./src/assets/avatarDb/12.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 13,
+      "matricula": "6870",
+      "email": "natan.franco@cliente.com",
+      "nome": "Natan",
+      "sobrenome": "Franco",
+      "departamento": "Materiais",
+      "cargo": "Operador",
+      "avatar": "./src/assets/avatarDb/13.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 14,
+      "matricula": "5723",
+      "email": "otávio.costa@cliente.com",
+      "nome": "Otávio",
+      "sobrenome": "Costa",
+      "departamento": "Financeiro",
+      "cargo": "Analista",
+      "avatar": "./src/assets/avatarDb/14.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 15,
+      "matricula": "1996",
+      "email": "thales.ferreira@cliente.com",
+      "nome": "Thales",
+      "sobrenome": "Ferreira",
+      "departamento": "Carga",
+      "cargo": "Transportador",
+      "avatar": "./src/assets/avatarDb/15.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 16,
+      "matricula": "2049",
+      "email": "anna.alves@cliente.com",
+      "nome": "Anna",
+      "sobrenome": "Alves",
+      "departamento": "Carga",
+      "cargo": "Transportador",
+      "avatar": "./src/assets/avatarDb/16.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 17,
+      "matricula": "1694",
+      "email": "alvaro.souza@cliente.com",
+      "nome": "Alvaro",
+      "sobrenome": "Souza",
+      "departamento": "Suprimentos",
+      "cargo": "Analista",
+      "avatar": "./src/assets/avatarDb/17.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 18,
+      "matricula": "8120",
+      "email": "marcela.santos@cliente.com",
+      "nome": "Marcela",
+      "sobrenome": "Santos",
+      "departamento": "Logistica",
+      "cargo": "Analista",
+      "avatar": "./src/assets/avatarDb/18.svg",
+      "reacoes": {
+        "Like": {
+          "count": 1,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    },
+    {
+      "id": 19,
+      "matricula": "2710",
+      "email": "ana.oliveira@cliente.com",
+      "nome": "Ana",
+      "sobrenome": "Oliveira",
+      "departamento": "Carga",
+      "cargo": "Transportador",
+      "avatar": "./src/assets/avatarDb/19.svg",
+      "reacoes": {
+        "Like": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Orgulho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Excelente_Trabalho": {
+          "count": 0,
+          "motivo": ""
+        },
+        "Colaboracao": {
+          "count": 0,
+          "motivo": ""
+        }
+      }
+    }
+  ]
+}

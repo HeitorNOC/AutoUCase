@@ -12,7 +12,7 @@ export const SidebarContainer = styled.div`
 
 export const SidebarUp = styled.div`
   margin-top: 51px;
-  
+  margin-left: 10px;
 
   div {
     display: flex;
@@ -41,7 +41,7 @@ export const SidebarDown = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-start;
-
+    margin-left: 10px;
     p {
       margin-left: 17px;
       font-size: 24px;
@@ -51,6 +51,7 @@ export const SidebarDown = styled.div`
 
     &:nth-child(2) {
       margin: 30px 0 40px 0;
+      margin-left: 10px;
     }
   }
 `

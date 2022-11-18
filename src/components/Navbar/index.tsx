@@ -2,13 +2,20 @@ import Logo from '../../assets/Logo.svg'
 import Avatar from '../../assets/Avatar.svg'
 
 import { NavbarContainer } from './styles'
+import { useContextSelector } from 'use-context-selector'
+import { AutoUContext } from '../../context/AutouContext'
+import { useNavigate } from 'react-router-dom'
 
 export function Navbar() {
+  const actualUser = useContextSelector(AutoUContext, (context) => {
+    return context.actualUser
+  })
+  const navigate = useNavigate()
   return (
 
     <NavbarContainer>
       <div>
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="" onClick={() => navigate('/profile')} style={{ cursor: 'pointer' }}/>
         <div className='underline'>
           <div style={{
             border: '2px solid #ffffff',
@@ -24,7 +31,7 @@ export function Navbar() {
           }}></div>
         </div>
       </div>
-      <img src={Avatar} />
+      <img className="avatar" src={actualUser ? actualUser.avatar : Avatar} />
     </NavbarContainer>
   )
 }
